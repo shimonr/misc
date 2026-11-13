@@ -15,7 +15,6 @@ Cloud Shell has the OCI Python SDK installed and is already signed in as you, so
    ```bash
    curl -fsSLO https://raw.githubusercontent.com/shimonr/misc/main/oracle-free-tier/oci_free_tier_check.py
    ```
-   This only works while the repo is public. Otherwise use Upload, or `gh`/`git clone` with a token.
 3. Run it:
    ```bash
    python3 oci_free_tier_check.py            # 30-day history
